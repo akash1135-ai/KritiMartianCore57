@@ -2,6 +2,49 @@
 
 ## Page Live At : https://dox6174.github.io/KritiMartianCore57/
 
+# Data Simulation and Classification
+
+## Overview
+This project processes and classifies shadow and non-shadow regions from simulated seismic data. The dataset is obtained from the [IRIS Syngine Data Simulation](https://ds.iris.edu/ds/products/syngine/).
+
+## Data Preparation
+The dataset consists of the following columns:
+
+```
+['Time', 'displacement1', 'displacement2', 'displacement3',
+ 'Class', 'dom_freq1', 'dom_freq2', 'dom_freq3', 'rms1', 'rms2', 'rms3',
+ 'max1', 'min1', 'range1', 'mean1', 'max2', 'min2', 'range2', 'mean2',
+ 'max3', 'min3', 'range3', 'mean3']
+```
+
+The following scalers are applied to prepare the data:
+- `MinMaxScaler`
+- `StandardScaler`
+- `MaxAbsScaler`
+- `RobustScaler`
+- `QuantileTransformer`
+
+## Installation
+Ensure you have Python installed along with the required libraries.
+
+```sh
+pip install numpy pandas scikit-learn
+```
+
+## Usage
+Run the Python script to process and classify the data:
+
+```sh
+python classify_shadow.py
+```
+
+## Expected Output
+The program predicts and classifies shadow and non-shadow regions from the simulated data based on the preprocessed features.
+
+## License
+This project is licensed under the MIT License.
+
+
 ## Dataset Information
 The dataset contains four columns representing geophysical properties:
 
