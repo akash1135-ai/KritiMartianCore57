@@ -249,4 +249,13 @@ canvas {
     #quake-info{
         top : 20px;
     }
+    
+    #quake-info p {
+        font-size: 16px;
+        padding: 4px 0;
+    }
+    
+    #quake-info strong {
+        font-size: 18px;
+    }
 }
