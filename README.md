@@ -37,3 +37,28 @@ To run the notebook, install the necessary dependencies:
 ```bash
 pip install numpy pandas scikit-learn jupyter
 jupyter notebook Module_7.ipynb
+```
+
+
+## Input
+The program requires a zip folder as input. The zip folder should consist of .SAC (Seismic Analysis Code) files in either of the following forms:
+
+- MXE
+- MXN
+
+Ensure that the correct file type is provided depending on the program requirements.
+
+## Running the Code
+1. Open the file on any of the following platforms:
+   - [Kaggle](https://www.kaggle.com/)
+   - [Jupyter Notebook](https://jupyter.org/)
+   - [Google Colab](https://colab.research.google.com/)
+
+2. Execute each cell sequentially by pressing Shift + Enter or using the platform-specific run option.
+
+## Output
+The program generates a plot highlighting the anomalies in the data.
+
+---
+
+*Note:* For optimal performance, ensure that all required dependencies are installed and up-to-date on your platform of choice.
