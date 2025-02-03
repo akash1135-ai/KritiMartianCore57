@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mars Quake Visualization</title>
+  <script type="module" crossorigin src="/&lt;your-repo-name&gt;/assets/index-DQJtQFUG.js"></script>
+  <link rel="stylesheet" crossorigin href="/&lt;your-repo-name&gt;/assets/index-BRyoPsKB.css">
+</head>
+
+<body>
+  <div class="center">
+    <div class="container">
+      <h1>Welcome to Mars Quake Visualization</h1>
+      <p>Explore real Marsquake data and visualize seismic activity on the Red Planet.</p>
+      <button class="start-button" onclick="startVisualization()">Start</button>
+    </div>
+  </div>
+
+
+  <!-- Transition overlay -->
+  <div class="transition-overlay"></div>
+
+  <!-- Hidden Mars Visualization Container -->
+  <div id="zoom-controls" class="hide">
+    <button id="zoom-in" class="hide">Zoom In</button>
+    <button id="zoom-out" class="hide">Zoom Out</button>
+    <button id="align-mars" class="hide">Align Mars</button> <!-- New Align Button -->
+  </div>
+  <div id="quake-info" class="hide"></div>
+  <nav class="hide">
+    <p>Explore <br> Mars</p>
+    <select class="quake-dropdown">
+      <option value="">2019 Marsquakes</option>
+    </select>
+    <select class="quake-dropdown">
+      <option value="">2020 Marsquakes</option>
+    </select>
+    <select class="quake-dropdown">
+      <option value="">2021 Marsquakes</option>
+    </select>
+    <select class="quake-dropdown">
+      <option value="">2022 Marsquakes</option>
+    </select>
+    <p>Martian <br> Core</p>
+  </nav>
+
+  <script>
+    function startVisualization() {
+      // Step 1: Fade out landing page
+      document.querySelector(".transition-overlay").classList.add("fade-out");
+
+      // Step 2: After fade-out completes, show Mars container
+      setTimeout(() => {
+        document.querySelector(".center").style.display = "none"; // Hide landing page
+
+        setTimeout(() => {
+          const hiden = document.querySelectorAll(".hide");
+          hiden.forEach((d) => {
+            d.classList.remove("hide");
+          })
+          document.querySelector(".transition-overlay").remove(); // Remove overlay to prevent interference
+          document.querySelector(".center").remove();
+          //   window.upTheCanvas(); // Call the function from the global scope
+        }, 100);
+      }, 1000);
+    }
+  </script>
+
+</body>
+
+</html>
