@@ -1,5 +1,7 @@
 # Seismic Data Analysis & Regression Model Comparison
 
+## Page Live At : https://dox6174.github.io/KritiMartianCore57/
+
 ## Dataset Information
 The dataset contains four columns representing geophysical properties:
 
