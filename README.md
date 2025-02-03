@@ -41,9 +41,6 @@ python classify_shadow.py
 ## Expected Output
 The program predicts and classifies shadow and non-shadow regions from the simulated data based on the preprocessed features.
 
-## License
-This project is licensed under the MIT License.
-
 
 ## Dataset Information
 The dataset contains four columns representing geophysical properties:
