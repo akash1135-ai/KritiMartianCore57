@@ -7,7 +7,7 @@
 ## Overview
 This project processes and classifies shadow and non-shadow regions from simulated seismic data. The dataset is obtained from the [IRIS Syngine Data Simulation](https://ds.iris.edu/ds/products/syngine/).
 
-## Developer 
+## Developers
 
 Pratyush Kumar Swain : [Github](https://github.com/Pratyush439), [LinkedIn](https://www.linkedin.com/in/pratyush-kumar-swain-2313482a5/)
 
