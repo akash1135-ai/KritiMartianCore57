@@ -10,6 +10,7 @@ This project processes and classifies shadow and non-shadow regions from simulat
 ## Developers
 
 Pratyush Kumar Swain : [Github](https://github.com/Pratyush439), [LinkedIn](https://www.linkedin.com/in/pratyush-kumar-swain-2313482a5/) <br/>
+Sanidhya Srivastava : [Github](https://github.com/diffused-orbital), [LinkedIn](https://www.linkedin.com/in/sanidhya-srivastava-a991a2210/) <br/>
 Vijay Kumar : [Github](https://github.com/vijay-kumar-79), [LinkedIn](https://www.linkedin.com/in/gvijaykumar79/)
 
 
