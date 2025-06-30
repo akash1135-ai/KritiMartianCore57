@@ -13,6 +13,8 @@ Pratyush Kumar Swain : [Github](https://github.com/Pratyush439), [LinkedIn](http
 Sanidhya Srivastava : [Github](https://github.com/diffused-orbital), [LinkedIn](https://www.linkedin.com/in/sanidhya-srivastava-a991a2210/) <br/>
 Vijay Kumar : [Github](https://github.com/vijay-kumar-79), [LinkedIn](https://www.linkedin.com/in/gvijaykumar79/) <br/>
 Arnav Tiku : [Github](https://github.com/T-arn21), [LinkedIn](https://www.linkedin.com/in/arnav-tiku-iitg/) <br/>
+Akash Iyer: [Github](https://github.com/akash1135-ai), [LinkedIn](https://www.linkedin.com/in/akash-iyer-48a49b28b/) <br/>
+
 
 
 ## Data Preparation
